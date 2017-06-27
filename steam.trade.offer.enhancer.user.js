@@ -343,7 +343,7 @@ if(location.indexOf("tradeoffers") > -1) {
     // Append new divs ...
     jQuery("div.trade_left div.trade_box_contents").append("<div class=\"trade_rule selectableNone\"/><div class=\"item_adder\"/>");
     jQuery("div.item_adder").append("<div class=\"selectableNone\">Add multiple items:</div>");
-    jQuery("div.item_adder").append("<input id=\"amount_control\" class=\"filter_search_box\" type=\"text\" placeholder=\"16\"> ");
+    jQuery("div.item_adder").append("<input id=\"amount_control\" class=\"filter_search_box\" type=\"text\" placeholder=\"16\" value=\"999\"> ");
     jQuery("div.item_adder").append("<button id=\"btn_additems\" type=\"button\" class=\"btn_custom\">Add</button><br><br>");
     jQuery("div.item_adder").append("<button id=\"btn_clearmyitems\" type=\"button\" class=\"btn_custom\">Clear my items</button>");
     jQuery("div.item_adder").append(" <button id=\"btn_cleartheiritems\" type=\"button\" class=\"btn_custom\">Clear their items</button>");
